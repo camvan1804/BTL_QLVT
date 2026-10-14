@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace BTL_QLKVT
+namespace khách_hàng
 {
     internal static class Program
     {
@@ -16,7 +16,7 @@ namespace BTL_QLKVT
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmdangnhap());
+            Application.Run(new Form1());
         }
     }
 }
