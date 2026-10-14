@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace baitaplonQLVT
+namespace khách_hàng
 {
     internal static class Program
     {
@@ -16,7 +16,7 @@ namespace baitaplonQLVT
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new form2());
+            Application.Run(new frmKhachHang());
         }
     }
 }

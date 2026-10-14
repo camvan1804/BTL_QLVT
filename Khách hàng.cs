@@ -11,13 +11,13 @@ using System.Windows.Forms;
 
 namespace khách_hàng
 {
-    public partial class Form1 : Form
+    public partial class frmKhachHang : Form
     {
 
         string connectionString = @"Data Source=DESKTOP-R1M6SPO;Initial Catalog=QL_khovattu;Integrated Security=True;TrustServerCertificate=True";
         SqlConnection conn;
 
-        public Form1()
+        public frmKhachHang()
         {
             InitializeComponent();
         }

@@ -1,6 +1,6 @@
 ﻿namespace khách_hàng
 {
-    partial class Form1
+    partial class frmKhachHang
     {
         /// <summary>
         /// Required designer variable.
@@ -43,6 +43,7 @@
             this.lblmakhachhang = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.gpttimkiem = new System.Windows.Forms.GroupBox();
+            this.btnquaylai = new Guna.UI2.WinForms.Guna2Button();
             this.btnlammoi = new System.Windows.Forms.Button();
             this.txttimten = new System.Windows.Forms.TextBox();
             this.btnsua = new System.Windows.Forms.Button();
@@ -53,7 +54,6 @@
             this.grpdanhsach = new System.Windows.Forms.GroupBox();
             this.dgvkhachhang = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
-            this.btnquaylai = new Guna.UI2.WinForms.Guna2Button();
             this.grpthongtinkhachhang.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.gpttimkiem.SuspendLayout();
@@ -221,6 +221,22 @@
             this.gpttimkiem.TabStop = false;
             this.gpttimkiem.Text = "Tìm kiếm";
             // 
+            // btnquaylai
+            // 
+            this.btnquaylai.BorderRadius = 15;
+            this.btnquaylai.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnquaylai.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnquaylai.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnquaylai.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnquaylai.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnquaylai.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnquaylai.ForeColor = System.Drawing.Color.White;
+            this.btnquaylai.Location = new System.Drawing.Point(568, 112);
+            this.btnquaylai.Name = "btnquaylai";
+            this.btnquaylai.Size = new System.Drawing.Size(110, 36);
+            this.btnquaylai.TabIndex = 8;
+            this.btnquaylai.Text = "Quay lại";
+            // 
             // btnlammoi
             // 
             this.btnlammoi.BackColor = System.Drawing.Color.White;
@@ -324,23 +340,7 @@
             this.label1.TabIndex = 3;
             this.label1.Text = "Quản Lý Khách Hàng";
             // 
-            // btnquaylai
-            // 
-            this.btnquaylai.BorderRadius = 15;
-            this.btnquaylai.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnquaylai.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnquaylai.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnquaylai.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnquaylai.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.btnquaylai.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnquaylai.ForeColor = System.Drawing.Color.White;
-            this.btnquaylai.Location = new System.Drawing.Point(568, 112);
-            this.btnquaylai.Name = "btnquaylai";
-            this.btnquaylai.Size = new System.Drawing.Size(110, 36);
-            this.btnquaylai.TabIndex = 8;
-            this.btnquaylai.Text = "Quay lại";
-            // 
-            // Form1
+            // frmKhachHang
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -349,7 +349,7 @@
             this.Controls.Add(this.grpdanhsach);
             this.Controls.Add(this.gpttimkiem);
             this.Controls.Add(this.grpthongtinkhachhang);
-            this.Name = "Form1";
+            this.Name = "frmKhachHang";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.grpthongtinkhachhang.ResumeLayout(false);

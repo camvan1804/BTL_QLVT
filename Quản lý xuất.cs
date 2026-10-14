@@ -11,11 +11,11 @@ using System.Windows.Forms;
 
 namespace khách_hàng
 {
-    public partial class Quản_lý_xuất : Form
+    public partial class frmQuanLyXuat : Form
     {
         string connectionString = @"Data Source=.;Initial Catalog=QL_khovattu2;Integrated Security=True";
 
-        public Quản_lý_xuất()
+        public frmQuanLyXuat()
         {
 
             InitializeComponent();
@@ -117,7 +117,7 @@ namespace khách_hàng
         private void btnthem_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Mở form lập phiếu xuất mới thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            Form2 f = new Form2 ();
+            frmLapPhieuXuat f = new frmLapPhieuXuat ();
             f.Show();
             LoadDataPhieuXuat();
         }
